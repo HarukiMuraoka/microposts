@@ -1,0 +1,19 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        プロフィール一覧
+    </div>
+    
+    <div class="panel-body">
+    <% @microposts.each do |microposts| %>
+    <span class="label label-info"><%= microposts.name %></span>
+    <%= microposts.profile %>
+    <%= microposts.mailaddress %>
+    <%= microposts.area %>
+    (<%= link_to "edit" , edit_microposts_path(microposts) %>)
+    <%= link_to "destroy" , microposts , method: :delete, data: {confirm: '削除してもよろしいですか？'} %>
+    <br>
+    <% end %>
+    </div>
+</div>
+
+<%= render 'form' %>

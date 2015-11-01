@@ -18,4 +18,14 @@ class SessionsController < ApplicationController
     session[:user_id] = nil
     redirect_to root_path
   end
+  def edit
+  end
+
+  def update
+    if @user.update(user_params)
+      redirect_to root_path , notice: 'プロフィールを編集しました'
+    else
+      render 'edit'
+    end
+  end
 end
