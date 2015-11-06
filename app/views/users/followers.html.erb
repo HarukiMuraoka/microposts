@@ -11,7 +11,7 @@
       <h3>Followers</h3>
       <ol class="microposts">
         <% @user.follower_users.each do |follower| %>
-          <li>
+          <li class="clearfix">
             <%= gravatar_for follower %>
           <span class="user"><%= link_to follower.name, follower %></span>
           </li>
