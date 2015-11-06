@@ -12,7 +12,7 @@
       <ol class="microposts">
         <% @user.follower_users.each do |follower| %>
           <li>
-            <%= gravatar_for @user %>
+            <%= gravatar_for follower %>
           <span class="user"><%= link_to follower.name, follower %></span>
           </li>
         <% end %>
