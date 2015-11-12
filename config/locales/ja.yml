@@ -193,3 +193,29 @@ ja:
       long: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
       short: "%y/%m/%d %H:%M"
     pm: 午後
+
+  view:
+    follower: "フォロワー"
+    following: "フォロー"
+    delete: "削除"
+    You sure?: "本当によろしいですか？"
+    Log in: "ログイン"
+    Sign up now!: "今すぐ登録を！"
+    Post: "投稿"
+    Compose new micropost: "投稿内容を入力してください"
+    profile: "プロフィール"
+    Sign up: "登録"
+    unfollow: "アンフォロー"
+    follow: "フォロー"
+    setted profile: "プロフィールを編集しました"
+    make a account: "アカウントを制作します"
+  controller:
+    log_in: "ログインしてください"
+    posted: "投稿しました!"
+    deleted: "削除しました"
+    Logged in as: "としてログインしました"
+    invalid email/password combination: "メールアドレスとパスワードの組み合わせが違います"
+    setting profile: "プロフィールを編集します"
+    Welcome: "ようこそ!"
+    setted profile: "プロフィールを編集しました"
+    

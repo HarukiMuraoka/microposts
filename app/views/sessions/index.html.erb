@@ -10,7 +10,7 @@
     <%= microposts.mailaddress %>
     <%= microposts.area %>
     (<%= link_to "edit" , edit_microposts_path(microposts) %>)
-    <%= link_to "destroy" , microposts , method: :delete, data: {confirm: '削除してもよろしいですか？'} %>
+    <%= link_to "destroy" , microposts , method: :delete, data: {confirm: t('view.You sure?')} %>
     <br>
     <% end %>
     </div>
