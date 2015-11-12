@@ -5,16 +5,16 @@
         <%= form_for(@user) do |f| %>
           <%= render 'shared/error_messages', object: f.object %>
         
-         <%= f.label :名前 %>
+         <%= f.label t "view.name" %>
          <%= f.text_field :name, class: 'form-control' %>
          
-         <%= f.label :メール %>
+         <%= f.label t "view.mail" %>
          <%= f.text_field :email, class: 'form-control' %>
          
-         <%= f.label :パスワード %>
+         <%= f.label t "view.password" %>
          <%= f.password_field :password, class: 'form-control' %>
          
-         <%= f.label :パスワードをもう一度入力してください %>
+         <%= f.label t "view.password_confimation" %>
          <%= f.password_field :password_confimation, class: 'form-control' %>
          
          <%= f.submit t('view.make a account'), class: "btn btn-large btn-primary" %>

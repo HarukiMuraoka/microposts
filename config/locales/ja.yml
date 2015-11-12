@@ -209,6 +209,12 @@ ja:
     follow: "フォロー"
     setted profile: "プロフィールを編集しました"
     make a account: "アカウントを制作します"
+    mail: "メール"
+    password: "パスワード"
+    name: "名前"
+    password_confimation: "パスワードをもう一度入力してください"
+    profile: "プロフィール"
+    area: "地域"
   controller:
     log_in: "ログインしてください"
     posted: "投稿しました!"

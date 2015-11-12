@@ -5,19 +5,19 @@
       <%= form_for(@user) do |f| %>
        <%= render 'shared/error_messages', object: f.object %>
       
-        <%= f.label :名前 %>
+        <%= f.label t "view.name" %>
         <%= f.text_field :name, class: 'form-control' %>
         
-        <%= f.label :プロフィール %>
+        <%= f.label t "view.profile" %>
         <%= f.text_field :profile, class: 'form-control' %>
         
-        <%= f.label :メールアドレス %>
+        <%= f.label t "view.mail" %>
         <%= f.text_field :email, class: 'form-control' %>
         
-        <%= f.label :パスワード %>
+        <%= f.label t "view.password" %>
         <%= f.text_field :password, class: 'form-control' %>
         
-        <%= f.label :地域 %>
+        <%= f.label t "view.area" %>
         <%= f.text_field :area, class: 'form-control' %>
         
         <%= f.submit t('view.setted profile'), class: "btn btn-large btn-primary" %>
